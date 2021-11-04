@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAqua"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:text="News"
+        android:textColor="@color/black"
+        android:textSize="75sp"
+        android:gravity="center"
+
+    />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/colorGray"
+        android:orientation="vertical"
+        >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="HEADER"
+        android:gravity="center"
+        android:background="@color/colorSilver"
+        android:orientation="vertical"
+
+        />
+    </TableRow>
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="Jaume Sala"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:gravity="center"
+
+        />
+</TableLayout>
